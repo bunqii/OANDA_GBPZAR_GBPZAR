@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "GBP_ZAR",
+  "granularity": "M1",
+  "chunk_start": "2007-02-01",
+  "chunk_end": "2007-02-28",
+  "parquet_file": "OANDA_GBPZAR_GBPZAR_1_2007-02-01_to_2007-02-28.parquet",
+  "data_file": "OANDA_GBPZAR_GBPZAR_1_2007-02-01_to_2007-02-28.parquet",
+  "row_count": 28815,
+  "first_candle": {
+    "time": 1170288000,
+    "Time": "2007-02-01T00:00:00.000000000Z",
+    "open": 14.15495,
+    "high": 14.15835,
+    "low": 14.15495,
+    "close": 14.15775,
+    "volume": 19
+  },
+  "last_candle": {
+    "time": 1172707140,
+    "Time": "2007-02-28T23:59:00.000000000Z",
+    "open": 14.20635,
+    "high": 14.20705,
+    "low": 14.20455,
+    "close": 14.20565,
+    "volume": 11
+  },
+  "csv_file": "OANDA_GBPZAR_GBPZAR_1_2007-02-01_to_2007-02-28.parquet",
+  "csv_row_count": 28815,
+  "csv_first_candle": {
+    "time": 1170288000,
+    "Time": "2007-02-01T00:00:00.000000000Z",
+    "open": 14.15495,
+    "high": 14.15835,
+    "low": 14.15495,
+    "close": 14.15775,
+    "volume": 19
+  },
+  "csv_last_candle": {
+    "time": 1172707140,
+    "Time": "2007-02-28T23:59:00.000000000Z",
+    "open": 14.20635,
+    "high": 14.20705,
+    "low": 14.20455,
+    "close": 14.20565,
+    "volume": 11
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T21:17:50.000000000Z",
+  "generated_at": "2026-10-15T21:17:50.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2355,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2007-01-29T13:40:00Z",
+        "to": "2007-02-02T01:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-02-02T01:00:00Z",
+        "to": "2007-02-05T12:20:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-02-05T12:20:00Z",
+        "to": "2007-02-08T23:40:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-02-08T23:40:00Z",
+        "to": "2007-02-12T11:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-02-12T11:00:00Z",
+        "to": "2007-02-15T22:20:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-02-15T22:20:00Z",
+        "to": "2007-02-19T09:40:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-02-19T09:40:00Z",
+        "to": "2007-02-22T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-02-22T21:00:00Z",
+        "to": "2007-02-26T08:20:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-02-26T08:20:00Z",
+        "to": "2007-03-01T19:40:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
